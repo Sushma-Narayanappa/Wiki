@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    <h3> There is no entry in this encyclopedia with the title {{title}}.</h3>
+    <br/><br/><br/>
+    <button>Create this entry with this title.</button>
+{% endblock %}
